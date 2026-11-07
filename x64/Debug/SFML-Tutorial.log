@@ -1,0 +1,53 @@
+﻿  Enemy.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Enemy.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  Game.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  GameWorld.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'GameWorld.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\GameWorld.cpp(10,39): warning C4834: discarding return value of function with [[nodiscard]] attribute
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\GameWorld.cpp(11,39): warning C4834: discarding return value of function with [[nodiscard]] attribute
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\GameWorld.cpp(12,39): warning C4834: discarding return value of function with [[nodiscard]] attribute
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\GameWorld.cpp(13,34): warning C4834: discarding return value of function with [[nodiscard]] attribute
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\GameWorld.cpp(14,34): warning C4834: discarding return value of function with [[nodiscard]] attribute
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\GameWorld.cpp(15,34): warning C4834: discarding return value of function with [[nodiscard]] attribute
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\GameWorld.cpp(16,33): warning C4834: discarding return value of function with [[nodiscard]] attribute
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\GameWorld.cpp(17,29): warning C4834: discarding return value of function with [[nodiscard]] attribute
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\GameWorld.cpp(18,30): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  Player.cpp
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Player.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Player.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Player.cpp(17,25): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  main.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  Generating Code...
+  SFML-Tutorial.vcxproj -> D:\Personal\Source\repos\SFML-Tutorial\x64\Debug\SFML-Tutorial.exe

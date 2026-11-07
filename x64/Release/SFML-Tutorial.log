@@ -1,0 +1,426 @@
+﻿  Enemy.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Enemy.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(8,11): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(8,11):
+      while trying to match the argument list '(float, float)'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(14,25): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'sf::FloatRect'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(14,25):
+      'sf::Rect<float>::Rect': function does not take 4 arguments
+          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(14,25):
+          while trying to match the argument list '(T, T, const float, const float)'
+          with
+          [
+              T=float
+          ]
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(25,35): error C2039: 'top': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(25,43): error C2039: 'height': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(26,35): error C2039: 'left': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(26,44): error C2039: 'width': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(35,19): error C2660: 'sf::Transformable::move': function does not take 2 arguments
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(174,10):
+      see declaration of 'sf::Transformable::move'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(35,19):
+      while trying to match the argument list '(float, float)'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(48,15): error C2660: 'sf::Transformable::move': function does not take 2 arguments
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(174,10):
+      see declaration of 'sf::Transformable::move'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Enemy.cpp(48,15):
+      while trying to match the argument list '(float, float)'
+  
+  Game.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'sf::VideoMode'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,27):
+      'sf::VideoMode::VideoMode': no overloaded function could convert all the argument types
+          D:\Personal\Source\SFML-3.0.0\include\SFML\Window\VideoMode.hpp(61,5):
+          could be 'sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)'
+              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,27):
+              'sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)': cannot convert argument 1 from 'const int' to 'sf::Vector2u'
+                  D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,28):
+                  'sf::Vector2<unsigned int>::Vector2': no overloaded function could convert all the argument types
+                      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Vector2.hpp(205,1):
+                      could be 'sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)'
+                          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,28):
+                          'sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)': cannot convert argument 1 from 'const int' to 'sf::Vector2<unsigned int> &&'
+                              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,28):
+                              Reason: cannot convert from 'const int' to 'sf::Vector2<unsigned int>'
+                              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,28):
+                              Conversion requires a second user-defined-conversion operator or constructor
+                      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Vector2.hpp(205,1):
+                      or       'sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)'
+                          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,28):
+                          'sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)': cannot convert argument 1 from 'const int' to 'const sf::Vector2<unsigned int> &'
+                              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,28):
+                              Reason: cannot convert from 'const int' to 'const sf::Vector2<unsigned int>'
+                              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,28):
+                              Conversion requires a second user-defined-conversion operator or constructor
+                      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,28):
+                      while trying to match the argument list '(const int)'
+          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,27):
+          while trying to match the argument list '(const int, const int)'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,13): error C2665: 'sf::RenderWindow::RenderWindow': no overloaded function could convert all the argument types
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      could be 'sf::RenderWindow::RenderWindow(sf::RenderWindow &&)'
+          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,13):
+          'sf::RenderWindow::RenderWindow(sf::RenderWindow &&)': cannot convert argument 1 from 'const char [26]' to 'sf::RenderWindow &&'
+              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,49):
+              Reason: cannot convert from 'const char [26]' to 'sf::RenderWindow'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      or       'sf::RenderWindow::RenderWindow(const sf::RenderWindow &)'
+          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,13):
+          'sf::RenderWindow::RenderWindow(const sf::RenderWindow &)': cannot convert argument 1 from 'const char [26]' to 'const sf::RenderWindow &'
+              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,49):
+              Reason: cannot convert from 'const char [26]' to 'const sf::RenderWindow'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\RenderWindow.hpp(127,5):
+      or       'sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)'
+          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,13):
+          'sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)': cannot convert argument 1 from 'const char [26]' to 'sf::WindowHandle'
+              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,49):
+              Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(5,13):
+      while trying to match the argument list '(const char [26])'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(14,15): error C2039: 'loadFromFile': is not a member of 'sf::Font'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Font.hpp(63,25):
+      see declaration of 'sf::Font'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(14,50): error C2039: 'loadFromFile': is not a member of 'sf::Font'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Font.hpp(63,25):
+      see declaration of 'sf::Font'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(32,15): error C2512: 'sf::Event': no appropriate default constructor available
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(33,19): error C2660: 'sf::WindowBase::pollEvent': function does not take 1 arguments
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\WindowBase.hpp(226,40):
+      see declaration of 'sf::WindowBase::pollEvent'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(33,19):
+      while trying to match the argument list '(sf::Event)'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(34,15): error C2039: 'type': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(39,46): error C2039: 'type': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(40,19): error C2039: 'key': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(40,45): error C2039: 'Down': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(40,45): error C2065: 'Down': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(41,24): error C2039: 'key': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(41,50): error C2039: 'Up': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(41,50): error C2065: 'Up': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(42,24): error C2039: 'key': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(42,50): error C2039: 'H': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(42,50): error C2065: 'H': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(43,24): error C2039: 'key': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(43,50): error C2039: 'Return': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(43,50): error C2065: 'Return': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(51,47): error C2039: 'type': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(52,19): error C2039: 'key': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(52,45): error C2039: 'Escape': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(52,45): error C2065: 'Escape': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(58,19): error C2039: 'type': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(59,23): error C2039: 'text': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(61,30): error C2039: 'text': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(61,54): error C2039: 'text': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(62,55): error C2039: 'text': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(64,26): error C2039: 'type': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(64,61): error C2039: 'key': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(64,87): error C2039: 'Return': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(64,87): error C2065: 'Return': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(72,46): error C2039: 'type': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(73,19): error C2039: 'key': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(73,45): error C2039: 'Return': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(73,45): error C2065: 'Return': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(73,57): error C2039: 'key': is not a member of 'sf::Event'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+      see declaration of 'sf::Event'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(73,83): error C2039: 'Escape': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(73,83): error C2065: 'Escape': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(157,25): error C2661: 'sf::Rect<float>::Rect': no overloaded function takes 4 arguments
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(157,25):
+      while trying to match the argument list '(T, T, const float, const float)'
+          with
+          [
+              T=float
+          ]
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(158,32): error C2039: 'intersects': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(172,16): error C2039: 'intersects': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(173,53): error C2039: 'top': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(173,62): error C2039: 'height': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(173,74): error C2039: 'top': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(178,29): error C2039: 'left': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(178,38): error C2039: 'top': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(178,17): error C2660: 'Game::addPopup': function does not take 2 arguments
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(108,12):
+      see declaration of 'Game::addPopup'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(178,17):
+      while trying to match the argument list '()'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(191,39): error C2039: 'top': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(204,27): error C2039: 'left': is not a member of 'sf::Rect<float>'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(218,15): error C2665: 'sf::Text::Text': no overloaded function could convert all the argument types
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Text.hpp(93,5):
+      could be 'sf::Text::Text(const sf::Font &&,sf::String,unsigned int)'
+          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(218,15):
+          'sf::Text::Text(const sf::Font &&,sf::String,unsigned int)': cannot convert argument 1 from 'const std::string' to 'const sf::Font &&'
+              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(218,16):
+              Reason: cannot convert from 'const std::string' to 'const sf::Font'
+              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(218,16):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Text.hpp(87,5):
+      or       'sf::Text::Text(const sf::Font &,sf::String,unsigned int)'
+          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(218,15):
+          'sf::Text::Text(const sf::Font &,sf::String,unsigned int)': cannot convert argument 1 from 'const std::string' to 'const sf::Font &'
+              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(218,16):
+              Reason: cannot convert from 'const std::string' to 'const sf::Font'
+              D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(218,16):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(218,15):
+      while trying to match the argument list '(const std::string, sf::Font, unsigned int)'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(220,7): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(220,7):
+      while trying to match the argument list '(float, float)'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(243,10): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(243,10):
+      while trying to match the argument list '(float, float)'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(247,10): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Game.cpp(247,10):
+      while trying to match the argument list '(float, float)'
+  
+  Graph.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Graph.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  Leaderboard.cpp
+  Level.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Level.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Level.cpp(106,18): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Level.cpp(106,18):
+      while trying to match the argument list '(float, float)'
+  
+  LevelTree.cpp
+  main.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  Mario.cpp
+D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Mario.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(23,25): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'sf::FloatRect'
+      D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(23,25):
+      'sf::Rect<float>::Rect': function does not take 4 arguments
+          D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(23,25):
+          while trying to match the argument list '(const T, const T, const float, const float)'
+          with
+          [
+              T=float
+          ]
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(30,50): error C2039: 'Left': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(30,50): error C2065: 'Left': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(30,101): error C2039: 'A': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(30,101): error C2065: 'A': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(31,50): error C2039: 'Right': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(31,50): error C2065: 'Right': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(31,101): error C2039: 'D': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(31,101): error C2065: 'D': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(33,61): error C2039: 'Space': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(33,61): error C2065: 'Space': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(34,61): error C2039: 'Up': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(34,61): error C2065: 'Up': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(35,61): error C2039: 'W': is not a member of 'sf::Keyboard'
+      D:\Personal\Source\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(35,61): error C2065: 'W': undeclared identifier
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(65,47): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(65,47): warning C4244:         with
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(65,47): warning C4244:         [
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(65,47): warning C4244:             T=float
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(65,47): warning C4244:         ]
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(88,37): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(88,37): warning C4244:         with
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(88,37): warning C4244:         [
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(88,37): warning C4244:             T=float
+D:\Personal\Source\repos\SFML-Tutorial\SFML-Tutorial\Mario.cpp(88,37): warning C4244:         ]
+  WorldMap.cpp
